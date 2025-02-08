@@ -26,4 +26,5 @@ Every screenshot should have some text explaining what the screenshot is about.
 Example below.
 
 *Ref 1: Network Diagram*
-[Network Diagram HomeLab-cropped.pdf](https://github.com/user-attachments/files/18719195/Network.Diagram.HomeLab-cropped.pdf)
+
+![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Network%20Diagram%20HomeLab.jpg)
