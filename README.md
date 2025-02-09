@@ -4,17 +4,17 @@
 
 Create a cybersecurity homelab designed for learning, testing and experimenting in cybersecurity, networking and system administration while maintaining a secure and isolated environment.
 
-### Skills Showcased
+## Skills Showcased
 
-## Virtualization skills
+### Virtualization skills
 - Proficient in setting up and managing virtual machines and switches using Hyper-V.
 - Allocated resources (CPU, memory and storage) to virtual machines for optimal performance.
-## Networking skills
+### Networking skills
 - Subnetting: Designed and implemented multiple subnets. 
 - Routing: Configured pfSense to route traffic between subnets and to the internet.
 - Firewall Management: Created firewall rules in pfSense to control traffic flow between subnets and external network.
 - Network Isolation: Ensured secure communication between isolated virtual switches.
-##
+###
 - 
 - 
 
