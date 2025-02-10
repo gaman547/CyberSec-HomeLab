@@ -7,7 +7,7 @@ Create a cybersecurity homelab designed for learning, testing and experimenting 
 ## Skills Showcased
 
 ### Virtualization Skills
-- Proficient in setting up and managing virtual machines and switches using Hyper-V.
+- Proficient in setting up and managing virtual machines.
 - Allocated resources (CPU, memory and storage) to virtual machines for optimal performance.
 ### Networking Skills
 - Subnetting: Designed and implemented multiple subnets. 
