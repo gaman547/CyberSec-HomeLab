@@ -56,7 +56,7 @@ To use virtualization platforms like Hyper-V, we need to ensure that virtualizat
 
 The first step in setting up this network was creating the virtual switches within the Hyper-V platform. These switches form the foundation of the network, segmenting it into four distinct subnets, as illustrated below.
 
-*Ref 2: Virtual Switches in Hyper-V
+*Ref 2: Virtual Switches in Hyper-V*
 
 ![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
 
