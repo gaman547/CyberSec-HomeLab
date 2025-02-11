@@ -60,6 +60,20 @@ The first step in setting up this network was creating the virtual switches with
 
 ![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
 
+To create different switches for each subnet, open Hyper-V Manager on the Host PC, and then open the Virtual Switch Manager under the Actions tab.
+
+### 2.1 Virtual Switch WAN
+
+This virtual switch connects the pfSense firewall to the home router, enabling machines in other subnets to access the internet, hence we will select the switch type as external as seen below.
+
+*Ref 3: WAN interface*
+
+![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20WAN.png)
+
+### 2.2 Virtual Switch LAN
+
+
+
 ### 3. pfSense Firewall and Router
 
 
