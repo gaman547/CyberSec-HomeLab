@@ -46,10 +46,15 @@ The setup I've built on a Hyper-V virtualization platform includes multiple virt
 
 Here's a breakdown of the components along with a high-level step-by-step overview of the setup process, without diving deep into every single detail.
 
+### 1. Internet and Host PC
+
 First of all, the home router connects to the internet and provides an external connection. The Host PC acts as the virtualization platform running Hyper-V, hosting all virtual machines and virtual switches.
 
 To use virtualization platforms like Hyper-V, we need to ensure that virtualization is enabled in the BIOS of the machine. I chose this platform because it allows running multiple operating systems as virtual machines and, in my experience, it optimally allocates resources within a Windows environment.
 
+### 2. pfSense Firewall and Router
+
+### 3. Virtual Switches and Subnets
 
 
 
