@@ -55,23 +55,28 @@ To use virtualization platforms like Hyper-V, we need to ensure that virtualizat
 ### 2. Virtual Switches and Subnets
 
 The first step in setting up this network was creating the virtual switches within the Hyper-V platform. These switches form the foundation of the network, segmenting it into four distinct subnets, as illustrated below.
-To create different switches for each subnet, open Hyper-V Manager on the Host PC, and then open the Virtual Switch Manager under the Actions tab.
 
 *Ref 2: Virtual Switches in Hyper-V*
 
 ![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
 
-### 2.1 Virtual Switch WAN
+*Virtual Switch WAN*
 
 This virtual switch connects the pfSense firewall to the home router, enabling machines in other subnets to access the internet, hence we will select the switch type as external as seen below.
 
-*Ref 3: WAN interface*
+To create different switches for each subnet, open Hyper-V Manager on the Host PC, and then open the Virtual Switch Manager under the Actions tab.
+
+*Ref 3: WAN*
 
 ![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20WAN.png)
 
-### 2.2 Virtual Switch LAN
+*Virtual Switch LAN* 
 
+This virtual switch is configured as an internal type and it hosts the Kali Linux VM (10.0.1.47). The next three subnets are also configured as internal and are named accordingly. 
 
+*Ref 4: LAN*
+
+![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20LAN.png)
 
 ### 3. pfSense Firewall and Router
 
