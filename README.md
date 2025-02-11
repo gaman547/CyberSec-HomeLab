@@ -52,9 +52,17 @@ First of all, the home router connects to the internet and provides an external 
 
 To use virtualization platforms like Hyper-V, we need to ensure that virtualization is enabled in the BIOS of the machine. I chose this platform because it allows running multiple operating systems as virtual machines and, in my experience, it optimally allocates resources within a Windows environment.
 
-### 2. pfSense Firewall and Router
+### 2. Virtual Switches and Subnets
 
-### 3. Virtual Switches and Subnets
+The first step in setting up this network was creating the virtual switches within the Hyper-V platform. These switches form the foundation of the network, segmenting it into four distinct subnets, as illustrated below.
+
+*Ref 2: Virtual Switches in Hyper-V
+
+![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
+
+### 3. pfSense Firewall and Router
+
+
 
 
 
