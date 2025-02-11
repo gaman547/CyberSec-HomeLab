@@ -37,7 +37,12 @@ Create a cybersecurity homelab designed for learning, testing and experimenting 
 ## Steps
 
 The setup I've built on a Hyper-V virtualization platform includes multiple virtual machines (VMs), virtual switches and a pfSense virtual firewall/router to manage traffic and ensure network segmentation.
+I've created the following network diagram to have a better understanding of the structure and functionality.
 
 *Ref 1: Network Diagram*
 
 ![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Network%20Diagram%20HomeLab.jpg)
+
+Here's a breakdown of the components along with a high-level step-by-step overvie of the setup process, without diving deep into every single detail.
+
+
