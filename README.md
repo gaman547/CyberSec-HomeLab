@@ -107,4 +107,11 @@ Navigate to https://www.pfsense.org/download/ and download the latest version of
 
 ![pfSense_ISO](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/download-pfSense-firewall-iso-image.png)
 
+#### 🧱 Virtual Machine Configuration
+
+* Platform: Hyper-V
+* CPU: 1 vCPU
+* Memory: 2 GB
+* Storage: 20 GB (dynamically allocated)
+
 
