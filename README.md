@@ -5,8 +5,6 @@
 ![Monitoring](https://img.shields.io/badge/monitoring-Splunk-black?logo=splunk)
 ![License](https://img.shields.io/github/license/gaman547/CyberSec-HomeLab)
 
----
-
 ### 🎯 Objective
 
 Design and implement a **cybersecurity homelab** tailored for learning, testing, and experimenting in cybersecurity, networking, and system administration, while ensuring a secure and isolated environment.
