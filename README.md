@@ -77,7 +77,7 @@ The network setup begins with creating **virtual switches** in Hyper-V, which fo
 
 *Ref 2: Virtual Switches in Hyper-V*
 
-![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switches%20inside%20Hyper-V.png)
+![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual-Switches-inside-Hyper-V.png)
 
 #### 🌐 Virtual Switch - WAN
 
