@@ -65,13 +65,13 @@ I've created the following network diagram to have a better understanding of the
 
 Here's a breakdown of the components, followed by a high-level overview of the setup process, without diving deep into every single detail.
 
-### 1️⃣ Internet & Host PC
+## 1️⃣ Internet & Host PC
 
 The **home router** connects to the internet and provides outbound access. The **Host PC** runs **Hyper-V**, serving as the base virtualization platform where all virtual machines and virtual switches reside.
 
 > 💡 Before using Hyper-V, ensure that **virtualization is enabled in BIOS**. Hyper-V is preferred here due to its seamless integration with Windows and efficient resource management.
 
-### 2️⃣ Virtual Switches and Subnets
+## 2️⃣ Virtual Switches and Subnets
 
 The network setup begins with creating **virtual switches** in Hyper-V, which form the segmented subnets of the lab. These provide isolation and simulate real-world network zones.
 
@@ -97,7 +97,7 @@ This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subn
 
 ![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20LAN.png)
 
-### 3️⃣ pfSense Firewall and Router
+## 3️⃣ pfSense Firewall and Router
 
 
 
