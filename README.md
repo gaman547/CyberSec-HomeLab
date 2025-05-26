@@ -87,7 +87,7 @@ This **external switch** connects pfSense to the home router, enabling internet 
 
 *Ref 3: WAN*
 
-![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switch%20WAN.png)
+![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual-Switch-WAN.png)
 
 #### 🔒 Virtual Switch - LAN
 
