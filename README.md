@@ -164,11 +164,11 @@ Afterwards I selected the LAN interface and configured it as follows.
 * Enter the new LAN IPv4 address = 10.0.1.1
 * Enter the new LAN IPv4 subnet bit count = 24
 
+> 💡 Press Enter as we do not want any upstream gateway for LAN interface.
+
 *Ref 8: pfSense LAN interface configuration* 
 
 ![pfSense_LAN_interface](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface.png)
-
-> 💡 I pressed Enter as we do not want any upstream gateway for LAN interface.
 
 I continued with the following configuration.
 
@@ -183,8 +183,15 @@ I continued with the following configuration.
 
 ![pfSense_LAN_interface_DHCP](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface-dhcp.png)
 
-> 💡 I followed the same patern for Monitoring and Vulnerable Machines interfaces.
+I followed the same patern for Monitoring and Vulnerable Machines interfaces. 
 
+> 💡 The only difference for the AD interface is that I did not enable DHCP service. The Active Directory Domain Controller will be responsible to assign IP addresses to the machines in the AD network. 
+
+Below would be the interface IP addresses look like.
+
+*Ref 10: *
+
+![]()
 
 
 
