@@ -61,7 +61,9 @@ I've created the following network diagram to have a better understanding of the
 
 ![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Network%20Diagram%20HomeLab.jpg)
 
-Here's a breakdown of the components along with a high-level step-by-step overview of the setup process, without diving deep into every single detail.
+### 🧩 Component Overview & Setup Walkthrough
+
+Here's a breakdown of the components, followed by a high-level overview of the setup process, without diving deep into every single detail.
 
 ### 1. Internet and Host PC
 
