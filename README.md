@@ -1,18 +1,21 @@
-### 🛡️ Cybersecurity HomeLab
+### 🛡️ Cybersecurity HomeLab 🛡️
 
 ![Platform](https://img.shields.io/badge/platform-HyperV-blue?logo=windows)
 ![Firewall](https://img.shields.io/badge/firewall-pfSense-red?logo=pfsense)
 ![Monitoring](https://img.shields.io/badge/monitoring-Splunk-black?logo=splunk)
 ![License](https://img.shields.io/github/license/gaman547/CyberSec-HomeLab)
 
+---
+
 ## 🎯 Objective
 
 Design and implement a **cybersecurity homelab** tailored for learning, testing, and experimenting in cybersecurity, networking, and system administration, while ensuring a secure and isolated environment.
 
+---
 
 ## 🧠 Skills Showcased
 
-### Virtualization Skills
+### 🖥️ Virtualization Skills
 - Proficient in setting up and managing virtual machines.
 - Allocated resources (CPU, memory and storage) to virtual machines for optimal performance.
 ### Networking Skills
