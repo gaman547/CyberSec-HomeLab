@@ -109,10 +109,12 @@ I navigated to https://www.pfsense.org/download/ and downloaded the latest versi
 
 I've created the **pfSense** virtual machine with the configuration bellow.
 
+> 💡 I used Generation 2 type of machine since it provides support for 64-bit guest OS and UEFI-based firmware.
+
+
 *Ref 5: pfSense VM Settings*
 
 ![pfSense_Settings](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-VM-Settings.png)
 
-> 💡 I used Generation 2 type of machine since it provides support for 64-bit guest OS and UEFI-based firmware.
 
 
