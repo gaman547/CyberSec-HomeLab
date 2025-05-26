@@ -51,13 +51,11 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 | Microsoft Visio   | Network Diagram Design                  |
 
 
+## 🛠️ Steps
 
+The lab was built on a **Hyper-V** virtualization platform and includes multiple **virtual machines (VMs)**, **virtual switches**, and a **pfSense** virtual firewall/router to manage traffic and enforce network segmentation.
 
-## Steps
-
-The setup I've built on a Hyper-V virtualization platform includes multiple virtual machines (VMs), virtual switches and a pfSense virtual firewall/router to manage traffic and ensure network segmentation.
-
- I've created the following network diagram to have a better understanding of the structure and functionality.
+I've created the following network diagram to have a better understanding of the structure and functionality.
 
 *Ref 1: Network Diagram*
 
