@@ -26,7 +26,6 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 ### 🛠️ System Administration Skills
 * Installed and managed **Windows Server 2019**, Windows 10 clients, and **Linux** machines.
 * Configured **Active Directory Domain Services (AD DS)**:
-
   * Set up a Domain Controller.
   * Managed users, groups, and permissions.
   * Deployed **DNS** and **AD Certificate Services**.
@@ -34,7 +33,6 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 
 ### 📊 Monitoring & Logging
 * Built a dedicated **monitoring VM** for:
-
   * Network traffic analysis
   * Log collection
   * System health monitoring
