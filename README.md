@@ -141,10 +141,13 @@ Next I manually setup the following interfaces.
 
 * WAN = hn0
 * LAN = hn1
-* OPT1 = hn2 (LAN)
-* OPT2 = hn3 (Monitoring)
-* OPT3 = hn4 (AD)
-* OPT4 = hn5 (Vulnerable Machines)
+* OPT1 = hn2 (Monitoring)
+* OPT2 = hn3 (AD)
+* OPT3 = hn4 (Vulnerable Machines)
+
+*Ref 6: pfSense interfaces*
+
+
 
 
 
