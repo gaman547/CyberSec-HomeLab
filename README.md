@@ -16,23 +16,34 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 ### 🖥️ Virtualization 
 * Proficient in setting up and managing virtual machines using **Hyper-V**.
 * Optimized VM performance through effective allocation of **CPU, memory, and storage**.
+  
 ### 🌐 Networking 
-- Subnetting: Designed and implemented multiple subnets. 
-- Routing: Configured pfSense to route traffic between subnets and the internet.
-- Firewall Management: Created firewall rules in pfSense to control traffic flow between subnets and external network.
-- Network Isolation: Ensured secure communication between isolated virtual switches.
-### System Administration Skills
-- OS Administration: Installed and managed Windows Server, Windows clients, and Linux systems.
-- Configured Windows Server 2019 as a Domain Controller.
-- Managed user accounts, groups and permissions in Active Directory.
-- Configured DNS and AD Certificate Services.
-- Connected client machines to the domain.
-### Monitoring and Logging
-- Created a dedicated monitoring VM to track network activity, analyze logs or monitor system health.
-- Installed and configured Splunk Enterprise. 
-### Documentation and Design
-- Created detailed network diagram to document the architecture.
-- Wrote this technical documentation for setup replication.
+* **Subnetting**: Designed and deployed multiple subnets.
+* **Routing**: Configured **pfSense** to route traffic between subnets and external networks.
+* **Firewall Management**: Defined firewall rules to control traffic flow and ensure segmentation.
+* **Network Isolation**: Achieved secure communication using isolated virtual switches.
+
+### 🛠️ System Administration Skills
+* Installed and managed **Windows Server 2019**, Windows 10 clients, and **Linux** machines.
+* Configured **Active Directory Domain Services (AD DS)**:
+
+  * Set up a Domain Controller.
+  * Managed users, groups, and permissions.
+  * Deployed **DNS** and **AD Certificate Services**.
+  * Joined client machines to the domain.
+
+### 📊 Monitoring & Logging
+* Built a dedicated **monitoring VM** for:
+
+  * Network traffic analysis
+  * Log collection
+  * System health monitoring
+* Installed and configured **Splunk Enterprise** for log ingestion and alerting.
+  
+### 📝 Documentation and Design
+* Created a detailed **network architecture diagram** using **Microsoft Visio**.
+* Documented the entire setup process to enable easy replication.
+
 
 ## Tools Used
 
