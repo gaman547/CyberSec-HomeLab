@@ -59,7 +59,7 @@ I've created the following network diagram to have a better understanding of the
 
 *Ref 1: Network Diagram*
 
-![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Network%20Diagram%20HomeLab.jpg)
+![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Network%20Diagram%20HomeLab.jpg)
 
 ---
 
@@ -77,7 +77,7 @@ The network setup begins with creating **virtual switches** in Hyper-V, which fo
 
 *Ref 2: Virtual Switches in Hyper-V*
 
-![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
+![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switches%20inside%20Hyper-V.png)
 
 #### 🌐 Virtual Switch - WAN
 
@@ -87,7 +87,7 @@ This **external switch** connects pfSense to the home router, enabling internet 
 
 *Ref 3: WAN*
 
-![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20WAN.png)
+![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switch%20WAN.png)
 
 #### 🔒 Virtual Switch - LAN
 
@@ -95,7 +95,7 @@ This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subn
 
 *Ref 4: LAN*
 
-![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20LAN.png)
+![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switch%20LAN.png)
 
 ## 3️⃣ pfSense Firewall and Router
 
