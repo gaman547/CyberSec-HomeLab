@@ -101,15 +101,23 @@ This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subn
 
 The **pfSense firewall** serves as the central hub for routing and security within the homelab environment. Deployed as a virtual machine on **Hyper-V**, it manages traffic between the WAN and multiple internal subnets, ensuring network segmentation and control.
 
-I navigated to https://www.pfsense.org/download/ and downloaded the latest version of iso image using the below specifications.
+I started by downloading the latest pfSense ISO image from the [official website](https://www.pfsense.org/download/), using the bellow specifications.
 
 *Ref 4: pfSense ISO*
 
 ![pfSense_ISO](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/download-pfSense-firewall-iso-image.png)
 
-I've created the **pfSense** virtual machine with the configuration bellow.
+Next I've created the **pfSense** virtual machine with the following configuration.
 
-> 💡 I used Generation 2 type of machine since it provides support for 64-bit guest OS and UEFI-based firmware.
+* Name: pfSense
+* Generation: Gen 2
+* CPU: 2 vCPU
+* Memory: 4 GB
+* Storage: 40 GB (dynamically allocated)
+* Network Adapter: WAN
+
+> 💡  Using Generation 2 ensures compatibility with modern system requirements and allows UEFI boot support.
+
 
 
 *Ref 5: pfSense VM Settings*
