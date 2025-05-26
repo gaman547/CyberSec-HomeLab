@@ -109,7 +109,6 @@ I started by downloading the latest pfSense ISO image from the [official website
 
 Next I've created the **pfSense** virtual machine with the following configuration.
 
-#### 🧱 pfSense Virtual Machine Configuration
 * Name: pfSense
 * Generation: Gen 2
 * CPU: 2 vCPU
@@ -134,7 +133,19 @@ Upon initial boot, pfSense prompts for instalation and partitioning the disk. I 
 * AUTO (ZFS) - Guided Root-on-ZFS
 * Stripe - No Redundancy
 
-After reboot, 
+After reboot, pfSense prompts for interface assignments.
+
+> 💡 When asked if VLANs need to be set up first, press n.
+
+Next I manually setup the following interfaces.
+
+* WAN = hn0
+* LAN = hn1
+* OPT1 = hn2 (LAN)
+* OPT2 = hn3 (Monitoring)
+* OPT3 = hn4 (AD)
+* OPT4 = hn5 (Vulnerable Machines)
+
 
 
 
