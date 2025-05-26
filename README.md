@@ -147,6 +147,51 @@ Next I manually setup the following interfaces.
 
 *Ref 6: pfSense interfaces*
 
+![pfSense_interfaces](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-interface-config.png)
+
+Each interface is configured with a static IP address appropriate for its subnet. The WAN interface got the IP address from my home router network.
+
+The Default LAN ip addres is 192.168.1.1/24 while the other interfaces are not configured yet.
+
+Next I selected option 2 as seen bellow.
+
+*Ref 7: pfSense LAN setup*
+
+![pfSense_LAN_Setup]()
+
+Afterwards I selected the LAN interface and configured it as follows.
+
+* Configure IPv4 address LAN interface via DHCP? = n
+* Enter the new LAN IPv4 address = 10.0.1.1
+* Enter the new LAN IPv4 subnet bit count = 24
+
+*Ref 8: pfSense LAN interface configuration* 
+
+![pfSense_LAN_interface]()
+
+Next I pressed Enter as we do not want any upstream gateway for LAN interface.
+
+I continued with the following configuration.
+
+* Configure IPv6 address LAN interface via DHCP6 = n
+* For the new LAN IPv6 address question = press ENTER
+* Do you want to enable DHCP server on LAN? = y
+* Enter the start address of the IPv4 clint address range = 10.0.1.100
+* Enter the end address of the IPv4 client address range = 10.0.1.200
+* Do you want to revert to HTTP as the webConfigurator protocol = n
+
+*Ref 9: pfSense LAN iterface configuration (DHCP, IPv6)*
+
+![pfSense_LAN_interface_DHCP]()
+
+
+
+
+
+
+
+
+
 
 
 
