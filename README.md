@@ -59,7 +59,7 @@ I've created the following network diagram to have a better understanding of the
 
 *Ref 1: Network Diagram*
 
-![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Network%20Diagram%20HomeLab.jpg)
+![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Network-Diagram-HomeLab.jpg)
 
 ---
 
