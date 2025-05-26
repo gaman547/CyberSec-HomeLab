@@ -109,6 +109,7 @@ I started by downloading the latest pfSense ISO image from the [official website
 
 Next I've created the **pfSense** virtual machine with the following configuration.
 
+#### 🧱 pfSense Virtual Machine Configuration
 * Name: pfSense
 * Generation: Gen 2
 * CPU: 2 vCPU
@@ -118,7 +119,11 @@ Next I've created the **pfSense** virtual machine with the following configurati
 
 > 💡  Using Generation 2 ensures compatibility with modern system requirements and allows UEFI boot support.
 
+Upon creation, I edited the virtual machine settings and made the following changes.
 
+* Disabled Secure Boot
+* Changed boot order
+* Added the remaining network adapeters
 
 *Ref 5: pfSense VM Settings*
 
