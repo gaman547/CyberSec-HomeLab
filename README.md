@@ -95,7 +95,7 @@ This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subn
 
 *Ref 4: LAN*
 
-![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual%20Switch%20LAN.png)
+![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/Virtual-Switch-LAN.png)
 
 ## 3️⃣ pfSense Firewall and Router
 
