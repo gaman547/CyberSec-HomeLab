@@ -189,9 +189,9 @@ I followed the same patern for Monitoring and Vulnerable Machines interfaces.
 
 Below would be the interface IP addresses look like.
 
-*Ref 10: *
+*Ref 10: pfSense final interface check*
 
-![]()
+![pfSense_interfaces_final](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-interfaces-final-check.png)
 
 
 
