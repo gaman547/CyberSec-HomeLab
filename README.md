@@ -167,7 +167,7 @@ Afterwards I selected the LAN interface and configured it as follows.
 
 *Ref 8: pfSense LAN interface configuration* 
 
-![pfSense_LAN_interface]()
+![pfSense_LAN_interface](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface.png)
 
 Next I pressed Enter as we do not want any upstream gateway for LAN interface.
 
