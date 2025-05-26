@@ -5,16 +5,13 @@
 ![Monitoring](https://img.shields.io/badge/monitoring-Splunk-black?logo=splunk)
 ![License](https://img.shields.io/github/license/gaman547/CyberSec-HomeLab)
 
-
-
 ## 🎯 Objective
 
 Design and implement a **cybersecurity homelab** tailored for learning, testing, and experimenting in cybersecurity, networking, and system administration, while ensuring a secure and isolated environment.
 
-### 🧠 Skills Showcased
----
+## 🧠 Skills Showcased
 
-## 🖥️ Virtualization 
+### 🖥️ Virtualization 
 * Proficient in setting up and managing virtual machines using **Hyper-V**.
 * Optimized VM performance through effective allocation of **CPU, memory, and storage**.
   
@@ -44,12 +41,19 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 * Documented the entire setup process to enable easy replication.
 
 
-## Tools Used
+---
 
-- Hyper-V Manager 
-- pfSense virtual firewall and router
-- Splunk Enterprise 
-- Microsoft Visio for designing the network diagram
+## 🧰 Tools Used
+
+| Tool              | Purpose                                 |
+| ----------------- | --------------------------------------- |
+| Hyper-V Manager   | Virtualization and VM Management        |
+| pfSense           | Firewall & Network Routing              |
+| Splunk Enterprise | Centralized Log Management & Monitoring |
+| Microsoft Visio   | Network Diagram Design                  |
+
+---
+
 
 ## Steps
 
