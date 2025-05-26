@@ -157,7 +157,7 @@ Next I selected option 2 as seen bellow.
 
 *Ref 7: pfSense LAN setup*
 
-![pfSense_LAN_Setup]()
+![pfSense_LAN_Setup](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-setup.png)
 
 Afterwards I selected the LAN interface and configured it as follows.
 
