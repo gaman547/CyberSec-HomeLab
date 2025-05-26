@@ -107,11 +107,12 @@ I navigated to https://www.pfsense.org/download/ and downloaded the latest versi
 
 ![pfSense_ISO](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/download-pfSense-firewall-iso-image.png)
 
+I've created the **pfSense** virtual machine with the configuration bellow.
 
-
-
-*Ref 5: pfSense VM Settings
+*Ref 5: pfSense VM Settings*
 
 ![pfSense_Settings](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-VM-Settings.png)
+
+> 💡 I used Generation 2 type of machine since it provides support for 64-bit guest OS and UEFI-based firmware.
 
 
