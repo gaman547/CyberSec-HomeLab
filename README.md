@@ -150,7 +150,6 @@ Next I manually setup the following interfaces.
 ![pfSense_interfaces](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-interface-config.png)
 
 Each interface is configured with a static IP address appropriate for its subnet. The WAN interface got the IP address from my home router network.
-
 The Default LAN ip addres is 192.168.1.1/24 while the other interfaces are not configured yet.
 
 Next I selected option 2 as seen bellow.
