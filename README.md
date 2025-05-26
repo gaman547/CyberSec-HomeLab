@@ -61,43 +61,43 @@ I've created the following network diagram to have a better understanding of the
 
 ![Network Diagram](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Network%20Diagram%20HomeLab.jpg)
 
-### 🧩 Component Overview & Setup Walkthrough
+## 🧩 Component Overview & Setup Walkthrough
 
 Here's a breakdown of the components, followed by a high-level overview of the setup process, without diving deep into every single detail.
 
-### 1. Internet and Host PC
+### 1️⃣ Internet & Host PC
 
-First of all, the home router connects to the internet and provides an external connection. The Host PC acts as the virtualization platform running Hyper-V, hosting all virtual machines and virtual switches.
+The **home router** connects to the internet and provides outbound access. The **Host PC** runs **Hyper-V**, serving as the base virtualization platform where all virtual machines and virtual switches reside.
 
-To use virtualization platforms like Hyper-V, we need to ensure that virtualization is enabled in the BIOS of the machine. I chose this platform because it allows running multiple operating systems as virtual machines and, in my experience, it optimally allocates resources within a Windows environment.
+> 💡 Before using Hyper-V, ensure that **virtualization is enabled in BIOS**. Hyper-V is preferred here due to its seamless integration with Windows and efficient resource management.
 
-### 2. Virtual Switches and Subnets
+### 2️⃣ Virtual Switches and Subnets
 
-The first step in setting up this network was creating the virtual switches within the Hyper-V platform. These switches form the foundation of the network, segmenting it into four distinct subnets, as illustrated below.
+The network setup begins with creating **virtual switches** in Hyper-V, which form the segmented subnets of the lab. These provide isolation and simulate real-world network zones.
 
 *Ref 2: Virtual Switches in Hyper-V*
 
 ![Virtual Switches](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switches%20inside%20Hyper-V.png)
 
-*Virtual Switch WAN*
+#### 🌐 Virtual Switch - WAN
 
-This virtual switch connects the pfSense firewall to the home router, enabling machines in other subnets to access the internet, hence we will select the switch type as external as seen below.
+This **external switch** connects pfSense to the home router, enabling internet access. It's configured in Hyper-V as an *External* type.
 
-To create different switches for each subnet, open Hyper-V Manager on the Host PC, and then open the Virtual Switch Manager under the Actions tab.
+> 💡 To create different switches for each subnet, open Hyper-V Manager on the Host PC, and then open the Virtual Switch Manager under the Actions tab.
 
 *Ref 3: WAN*
 
 ![WAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20WAN.png)
 
-*Virtual Switch LAN* 
+#### 🔒 Virtual Switch - LAN
 
-This virtual switch is configured as an internal type and it hosts the Kali Linux VM (10.0.1.47). The next three subnets are also configured as internal and are named accordingly. 
+This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subnets are also created using internal switches to ensure complete segmentation.
 
 *Ref 4: LAN*
 
 ![LAN](https://github.com/gaman547/CyberSec-HomeLab/blob/main/Virtual%20Switch%20LAN.png)
 
-### 3. pfSense Firewall and Router
+### 3️⃣ pfSense Firewall and Router
 
 
 
