@@ -168,7 +168,7 @@ Afterwards I selected the LAN interface and configured it as follows.
 
 ![pfSense_LAN_interface](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface.png)
 
-Next I pressed Enter as we do not want any upstream gateway for LAN interface.
+> 💡 I pressed Enter as we do not want any upstream gateway for LAN interface.
 
 I continued with the following configuration.
 
@@ -179,9 +179,14 @@ I continued with the following configuration.
 * Enter the end address of the IPv4 client address range = 10.0.1.200
 * Do you want to revert to HTTP as the webConfigurator protocol = n
 
-*Ref 9: pfSense LAN iterface configuration (DHCP, IPv6)*
+*Ref 9: pfSense LAN iterface DHCP configuration*
 
 ![pfSense_LAN_interface_DHCP](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface-dhcp.png)
+
+> 💡 I followed the same patern for Monitoring and Vulnerable Machines interfaces.
+
+
+
 
 
 
