@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/platform-HyperV-blue?logo=windows)
 ![Firewall](https://img.shields.io/badge/firewall-pfSense-red?logo=pfsense)
 ![Monitoring](https://img.shields.io/badge/monitoring-Splunk-black?logo=splunk)
-![License](https://img.shields.io/github/license/gaman547/CyberSec-HomeLab)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 Objective
 
