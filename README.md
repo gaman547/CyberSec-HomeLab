@@ -103,6 +103,8 @@ The **pfSense firewall** serves as the central hub for routing and security with
 
 Navigate to https://www.pfsense.org/download/ and download the latest version of iso image using the below specifications.
 
+*Ref 4: pfSense ISO*
 
+![pfSense_ISO](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/download-pfSense-firewall-iso-image.png)
 
 
