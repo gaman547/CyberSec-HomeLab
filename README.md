@@ -182,7 +182,7 @@ I continued with the following configuration.
 
 *Ref 9: pfSense LAN iterface configuration (DHCP, IPv6)*
 
-![pfSense_LAN_interface_DHCP]()
+![pfSense_LAN_interface_DHCP](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-LAN-interface-dhcp.png)
 
 
 
