@@ -21,7 +21,7 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 * **Firewall Management**: Defined firewall rules to control traffic flow and ensure segmentation.
 * **Network Isolation**: Achieved secure communication using isolated virtual switches.
 
-### 🛠️ System Administration Skills
+### 🛠️ System Administration 
 * Installed and managed **Windows Server 2019**, Windows 10 clients, and **Linux** machines.
 * Configured **Active Directory Domain Services (AD DS)**:
   * Set up a Domain Controller.
@@ -41,8 +41,6 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 * Documented the entire setup process to enable easy replication.
 
 
----
-
 ## 🧰 Tools Used
 
 | Tool              | Purpose                                 |
@@ -52,7 +50,7 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 | Splunk Enterprise | Centralized Log Management & Monitoring |
 | Microsoft Visio   | Network Diagram Design                  |
 
----
+
 
 
 ## Steps
