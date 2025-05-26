@@ -99,8 +99,9 @@ This **internal switch** connects the Kali Linux VM (10.0.1.47). Additional subn
 
 ## 3️⃣ pfSense Firewall and Router
 
+The **pfSense firewall** serves as the central hub for routing and security within the homelab environment. Deployed as a virtual machine on **Hyper-V**, it manages traffic between the WAN and multiple internal subnets, ensuring network segmentation and control.
 
-
+Navigate to https://www.pfsense.org/download/ and download the latest version of iso image using the below specifications.
 
 
 
