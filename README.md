@@ -110,3 +110,8 @@ I navigated to https://www.pfsense.org/download/ and downloaded the latest versi
 
 
 
+*Ref 5: pfSense VM Settings
+
+![pfSense_Settings](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-VM-Settings.png)
+
+
