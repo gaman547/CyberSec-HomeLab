@@ -13,10 +13,10 @@ Design and implement a **cybersecurity homelab** tailored for learning, testing,
 
 ## 🧠 Skills Showcased
 
-### 🖥️ Virtualization Skills
-- Proficient in setting up and managing virtual machines.
-- Allocated resources (CPU, memory and storage) to virtual machines for optimal performance.
-### Networking Skills
+### 🖥️ Virtualization 
+* Proficient in setting up and managing virtual machines using **Hyper-V**.
+* Optimized VM performance through effective allocation of **CPU, memory, and storage**.
+### 🌐 Networking 
 - Subnetting: Designed and implemented multiple subnets. 
 - Routing: Configured pfSense to route traffic between subnets and the internet.
 - Firewall Management: Created firewall rules in pfSense to control traffic flow between subnets and external network.
