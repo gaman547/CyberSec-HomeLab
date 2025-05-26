@@ -1,4 +1,4 @@
-### CyberSec-HomeLab
+# 🛡️ Cybersecurity HomeLab
 
 ## Objective
 
