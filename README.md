@@ -123,11 +123,19 @@ Upon creation, I edited the virtual machine settings and made the following chan
 
 * Disabled Secure Boot
 * Changed boot order
-* Added the remaining network adapeters
+* Added the remaining network adapters
 
 *Ref 5: pfSense VM Settings*
 
 ![pfSense_Settings](https://github.com/gaman547/CyberSec-HomeLab/blob/main/images/pfSense-VM-Settings.png)
+
+Upon initial boot, pfSense prompts for instalation and partitioning the disk. I made sure to partition the disk with the following settings.
+
+* AUTO (ZFS) - Guided Root-on-ZFS
+* Stripe - No Redundancy
+
+After reboot, 
+
 
 
 
